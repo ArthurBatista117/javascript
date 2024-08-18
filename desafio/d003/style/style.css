@@ -1,0 +1,24 @@
+@charset "UTF-8";
+
+body{
+    background-image: linear-gradient(to top, #CBE9F5, #0095C6);
+    background-attachment: fixed;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.2em;
+}
+
+header{
+    color: white;
+    text-align: center;
+}
+
+main{
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.416);
+    margin: auto;
+    width: 800px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: white;
+    text-align: justify;
+}
+

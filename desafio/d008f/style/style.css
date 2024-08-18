@@ -1,0 +1,28 @@
+@charset "UTF-8";
+@font-face {
+    font-family: "Roboto";
+    src: url(fonts/Roboto-Medium.ttf);
+}
+
+body{
+    background-attachment: fixed;
+    background-image: linear-gradient(to top, #DAFDBA, #9AEBA3);
+    font-family: "Roboto", sans-serif;
+    font-size: 1.2em;
+}
+
+header{
+    text-align: center;
+    color: #012030;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+main{
+    width: 800px;
+    background-color: #f0f8ff;
+    padding: 10px;
+    border-radius: 5px;
+    margin: auto;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.411);
+}

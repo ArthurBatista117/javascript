@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculo de Desconto</title>
+    <link rel="stylesheet" href="/style/style.css">
+</head>
+<body>
+    <header>
+        <h1>Calculo de Desconto</h1>
+    </header>
+    <main>
+        <div>
+            <p>
+                Preço do produto:
+                <input type="number" name="txtpre" id="txtpre">
+            </p>
+            <p>
+                Desconto: 
+                <input type="number" name="txtdes" id="txtdes">%
+            </p>
+            <p>
+                <input type="button" value="Calcular" onclick="desconto()">
+            </p>
+        </div>
+        <div id="res">
+            Aguardando os dados...
+        </div>
+    </main>
+    <script src="/javascript/script.js"></script>
+</body>
+</html>
